@@ -2,13 +2,14 @@
   "name": "u-develop-it",
   "version": "1.0.0",
   "description": "![GitHub](https://img.shields.io/badge/License-MIT-blue)",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "test": "jest",
     "migrate": "sqlite3 db/election.db < db/schema.sql",
     "seed": "sqlite3 db/election.db < db/seeds.sql",
     "db": "sqlite3 db/election.db",
-    "start": "node app.js"
+    "start": "node server.js",
+    "dev": "nodemon server"
   },
   "repository": {
     "type": "git",
