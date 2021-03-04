@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "migrate": "sqlite3 db/election.db < db/schema.sql",
-    "seed": "sqlite3 db/election.db < db/seeds.sql",
+    "seed": "sqlite3 db/election.db < db/seed.sql",
     "db": "sqlite3 db/election.db",
     "start": "node server.js",
     "dev": "nodemon server"
